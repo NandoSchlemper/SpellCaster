@@ -1,0 +1,1 @@
+In this case, we'll create something like an UI that will only be used by the Client of the aplication, so, View, in general is just like an react component
