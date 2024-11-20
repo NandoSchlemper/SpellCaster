@@ -1,0 +1,26 @@
+{
+  "name": "spellcaster",
+  "version": "1.0.0",
+  "description": "Um jogo que vai utilizar comunicacao RPC com TypeScript, utilizando-se de NextJS, React Components, Zod e Supabase (com postgres)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "npx tsx backend/index.ts",
+    "client_init": "npx tsx backend/tests/testando.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "@trpc/client": "^10.45.2",
+    "@trpc/server": "^10.45.2",
+    "fastify": "^5.1.0",
+    "fastify-cors": "^6.0.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
