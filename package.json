@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "init": "npx tsx backend/index.ts",
-    "client_init": "npx tsx backend/tests/testando.ts"
+    "client_init": "npx tsx backend/tests/testando.ts",
+    "seed": "npx tsx backend/db/seed/drizzle.seed.ts"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "@trpc/client": "^10.45.2",
     "@trpc/server": "^10.45.2",
     "@types/node": "^22.9.1",
+    "dotenv": "^16.4.5",
     "drizzle-orm": "^0.36.3",
     "fastify": "^5.1.0",
     "fastify-cors": "^6.0.3",
