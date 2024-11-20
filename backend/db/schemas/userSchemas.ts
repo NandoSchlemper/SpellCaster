@@ -19,7 +19,8 @@ export const userCharacter = pgTable('user_character', {
   id: uuid('id').defaultRandom().primaryKey(),
   userId: uuid('user_id').references(() => users.id),
   username: text('username'),
-  level: text('level')
+  level: text('level'),
+  element: text('element'), //retirar
 })
 
 export const userCharacterrelations = relations(userCharacter, ({ one }) => ({
