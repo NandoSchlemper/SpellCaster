@@ -1,5 +1,5 @@
 import { initTRPC } from '@trpc/server';
-import { helloRouter } from './hello';
+import { helloRouter } from './test/hello';
 import { userRouter } from './user/userRouter';
 
 const t = initTRPC.create();
