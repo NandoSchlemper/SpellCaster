@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "moduleResolution": "Node",
+      "outDir": "./dist",
+      "rootDir": "./backend"
+    },
+    "include": ["backend"]
+  }
+  
